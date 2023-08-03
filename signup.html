@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,32 +11,27 @@
         href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=REM:ital,wght@0,100;0,400;0,500;0,600;0,900;1,100;1,900&display=swap"
         rel="stylesheet" />
 </head>
-
 <body>
-    <div class="container">
+    <div class="container" id="signupform">
         <div class="formcontainer">
             <div class="heading">
-                <h1>login</h1>
+                <h1>signup</h1>
             </div>
-
             <div class="form">
-                <input type="text" placeholder="Email Address or Username"/>
-                <input type="password" placeholder="Password"/>
-                <a href="forgot.html">Forgot Password?</a>
-                <button class="btn">Login</button>
+                <input type="text" placeholder="First Name"/>
+                <input type="text" placeholder="Last Name"/>
+                <input type="email" placeholder="Enter Email Address"/>
+                <input type="password" placeholder="Password" />
+                <button class="btn">Register</button>
             </div>
-
             <div class="others">
-                <p>Or login with</p>
-                <!-- <button id="fbbtn"><img src="./images/fb.png" alt="Fb"/>Facebook</button>
-                <button id="googlebtn"><img src="./images/google.png" alt="">Google</button> -->
+                <p>Already a member? <a href="./index.html">Login now</a></p>
+                <p>Or signup with</p>
                 <button class="btn" id="fbbtn">Facebook</button>
                 <button class="btn" id="googlebtn"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></button>
-                <p>Don't have an account? <a href="./signup.html">Signup now</a></p>
             </div>
-
         </div>
+            
     </div>
 </body>
-
 </html>
